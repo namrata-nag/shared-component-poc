@@ -1,3 +1,1 @@
-import TestComponent from "./TestComponet"
-
-export default {TestComponent}
+export { default as TestComponent } from "./TestComponet";

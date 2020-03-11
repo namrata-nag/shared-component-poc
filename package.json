@@ -1,7 +1,7 @@
 {
   "name": "shared-comp-poc",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "babel src -d build",
     "prepare": "yarn run build"
