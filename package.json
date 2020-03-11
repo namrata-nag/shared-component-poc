@@ -1,0 +1,24 @@
+{
+  "name": "shared-comp-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+   },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:namrata-nag/shared-component-poc.git",
+  "author": "Namrata Nag <namratanag12@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
